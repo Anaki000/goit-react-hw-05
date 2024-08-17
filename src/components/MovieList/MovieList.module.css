@@ -1,0 +1,32 @@
+.list {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+  list-style: none;
+}
+.items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8px;
+  transition: transform 500ms ease;
+}
+.items:hover,
+.items:focus {
+  transform: scale(1.1);
+  transition: box-shadow 0.5s linear;
+  box-shadow: 0px 0px 24px 4px rgb(165, 38, 255);
+}
+
+.link {
+  color: #ffff;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+}

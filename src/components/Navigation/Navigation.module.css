@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  background-color:rgba(190, 102, 190, 0.763);
+  color: aliceblue;
+  font-size: 36px;
+  font-weight: 700;
+}
+.nav {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.link {
+  text-decoration: none;
+  color: blueviolet;
+}
+
+.activeLink {
+  text-decoration: underline;
+  color: red; 
+}
+.active {
+  color: rgb(243, 238, 240);
+}
